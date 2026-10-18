@@ -1,0 +1,123 @@
+,Feature,Pandas Type,Analytical Type
+0,SK_ID_CURR,Integer,Identifier
+1,TARGET,Integer,Target
+2,NAME_CONTRACT_TYPE,str,Binary / Flag
+3,CODE_GENDER,str,Categorical
+4,FLAG_OWN_CAR,str,Binary / Flag
+5,FLAG_OWN_REALTY,str,Binary / Flag
+6,CNT_CHILDREN,Integer,Numerical Count
+7,AMT_INCOME_TOTAL,Float,Numerical Continuous
+8,AMT_CREDIT,Float,Numerical Continuous
+9,AMT_ANNUITY,Float,Numerical Continuous
+10,AMT_GOODS_PRICE,Float,Numerical Continuous
+11,NAME_TYPE_SUITE,str,Categorical
+12,NAME_INCOME_TYPE,str,Categorical
+13,NAME_EDUCATION_TYPE,str,Ordinal
+14,NAME_FAMILY_STATUS,str,Categorical
+15,NAME_HOUSING_TYPE,str,Categorical
+16,REGION_POPULATION_RELATIVE,Float,Numerical Continuous
+17,DAYS_BIRTH,Integer,Temporal / Days
+18,DAYS_EMPLOYED,Integer,Temporal / Days
+19,DAYS_REGISTRATION,Float,Temporal / Days
+20,DAYS_ID_PUBLISH,Integer,Temporal / Days
+21,OWN_CAR_AGE,Float,Temporal / Days
+22,FLAG_MOBIL,Integer,Binary / Flag
+23,FLAG_EMP_PHONE,Integer,Binary / Flag
+24,FLAG_WORK_PHONE,Integer,Binary / Flag
+25,FLAG_CONT_MOBILE,Integer,Binary / Flag
+26,FLAG_PHONE,Integer,Binary / Flag
+27,FLAG_EMAIL,Integer,Binary / Flag
+28,OCCUPATION_TYPE,str,Categorical
+29,CNT_FAM_MEMBERS,Float,Numerical Count
+30,REGION_RATING_CLIENT,Integer,Ordinal
+31,REGION_RATING_CLIENT_W_CITY,Integer,Ordinal
+32,WEEKDAY_APPR_PROCESS_START,str,Categorical
+33,HOUR_APPR_PROCESS_START,Integer,Numerical Continuous
+34,REG_REGION_NOT_LIVE_REGION,Integer,Binary / Flag
+35,REG_REGION_NOT_WORK_REGION,Integer,Binary / Flag
+36,LIVE_REGION_NOT_WORK_REGION,Integer,Binary / Flag
+37,REG_CITY_NOT_LIVE_CITY,Integer,Binary / Flag
+38,REG_CITY_NOT_WORK_CITY,Integer,Binary / Flag
+39,LIVE_CITY_NOT_WORK_CITY,Integer,Binary / Flag
+40,ORGANIZATION_TYPE,str,Categorical
+41,EXT_SOURCE_1,Float,External Score
+42,EXT_SOURCE_2,Float,External Score
+43,EXT_SOURCE_3,Float,External Score
+44,APARTMENTS_AVG,Float,Numerical Continuous
+45,BASEMENTAREA_AVG,Float,Numerical Continuous
+46,YEARS_BEGINEXPLUATATION_AVG,Float,Numerical Continuous
+47,YEARS_BUILD_AVG,Float,Numerical Continuous
+48,COMMONAREA_AVG,Float,Numerical Continuous
+49,ELEVATORS_AVG,Float,Numerical Continuous
+50,ENTRANCES_AVG,Float,Numerical Continuous
+51,FLOORSMAX_AVG,Float,Numerical Continuous
+52,FLOORSMIN_AVG,Float,Numerical Continuous
+53,LANDAREA_AVG,Float,Numerical Continuous
+54,LIVINGAPARTMENTS_AVG,Float,Numerical Continuous
+55,LIVINGAREA_AVG,Float,Numerical Continuous
+56,NONLIVINGAPARTMENTS_AVG,Float,Numerical Continuous
+57,NONLIVINGAREA_AVG,Float,Numerical Continuous
+58,APARTMENTS_MODE,Float,Numerical Continuous
+59,BASEMENTAREA_MODE,Float,Numerical Continuous
+60,YEARS_BEGINEXPLUATATION_MODE,Float,Numerical Continuous
+61,YEARS_BUILD_MODE,Float,Numerical Continuous
+62,COMMONAREA_MODE,Float,Numerical Continuous
+63,ELEVATORS_MODE,Float,Numerical Continuous
+64,ENTRANCES_MODE,Float,Numerical Continuous
+65,FLOORSMAX_MODE,Float,Numerical Continuous
+66,FLOORSMIN_MODE,Float,Numerical Continuous
+67,LANDAREA_MODE,Float,Numerical Continuous
+68,LIVINGAPARTMENTS_MODE,Float,Numerical Continuous
+69,LIVINGAREA_MODE,Float,Numerical Continuous
+70,NONLIVINGAPARTMENTS_MODE,Float,Numerical Continuous
+71,NONLIVINGAREA_MODE,Float,Numerical Continuous
+72,APARTMENTS_MEDI,Float,Numerical Continuous
+73,BASEMENTAREA_MEDI,Float,Numerical Continuous
+74,YEARS_BEGINEXPLUATATION_MEDI,Float,Numerical Continuous
+75,YEARS_BUILD_MEDI,Float,Numerical Continuous
+76,COMMONAREA_MEDI,Float,Numerical Continuous
+77,ELEVATORS_MEDI,Float,Numerical Continuous
+78,ENTRANCES_MEDI,Float,Numerical Continuous
+79,FLOORSMAX_MEDI,Float,Numerical Continuous
+80,FLOORSMIN_MEDI,Float,Numerical Continuous
+81,LANDAREA_MEDI,Float,Numerical Continuous
+82,LIVINGAPARTMENTS_MEDI,Float,Numerical Continuous
+83,LIVINGAREA_MEDI,Float,Numerical Continuous
+84,NONLIVINGAPARTMENTS_MEDI,Float,Numerical Continuous
+85,NONLIVINGAREA_MEDI,Float,Numerical Continuous
+86,FONDKAPREMONT_MODE,str,Categorical
+87,HOUSETYPE_MODE,str,Categorical
+88,TOTALAREA_MODE,Float,Numerical Continuous
+89,WALLSMATERIAL_MODE,str,Categorical
+90,EMERGENCYSTATE_MODE,str,Binary / Flag
+91,OBS_30_CNT_SOCIAL_CIRCLE,Float,Numerical Count
+92,DEF_30_CNT_SOCIAL_CIRCLE,Float,Numerical Count
+93,OBS_60_CNT_SOCIAL_CIRCLE,Float,Numerical Count
+94,DEF_60_CNT_SOCIAL_CIRCLE,Float,Numerical Count
+95,DAYS_LAST_PHONE_CHANGE,Float,Temporal / Days
+96,FLAG_DOCUMENT_2,Integer,Binary / Flag
+97,FLAG_DOCUMENT_3,Integer,Binary / Flag
+98,FLAG_DOCUMENT_4,Integer,Binary / Flag
+99,FLAG_DOCUMENT_5,Integer,Binary / Flag
+100,FLAG_DOCUMENT_6,Integer,Binary / Flag
+101,FLAG_DOCUMENT_7,Integer,Binary / Flag
+102,FLAG_DOCUMENT_8,Integer,Binary / Flag
+103,FLAG_DOCUMENT_9,Integer,Binary / Flag
+104,FLAG_DOCUMENT_10,Integer,Binary / Flag
+105,FLAG_DOCUMENT_11,Integer,Binary / Flag
+106,FLAG_DOCUMENT_12,Integer,Binary / Flag
+107,FLAG_DOCUMENT_13,Integer,Binary / Flag
+108,FLAG_DOCUMENT_14,Integer,Binary / Flag
+109,FLAG_DOCUMENT_15,Integer,Binary / Flag
+110,FLAG_DOCUMENT_16,Integer,Binary / Flag
+111,FLAG_DOCUMENT_17,Integer,Binary / Flag
+112,FLAG_DOCUMENT_18,Integer,Binary / Flag
+113,FLAG_DOCUMENT_19,Integer,Binary / Flag
+114,FLAG_DOCUMENT_20,Integer,Binary / Flag
+115,FLAG_DOCUMENT_21,Integer,Binary / Flag
+116,AMT_REQ_CREDIT_BUREAU_HOUR,Float,Numerical Count
+117,AMT_REQ_CREDIT_BUREAU_DAY,Float,Numerical Count
+118,AMT_REQ_CREDIT_BUREAU_WEEK,Float,Numerical Count
+119,AMT_REQ_CREDIT_BUREAU_MON,Float,Numerical Count
+120,AMT_REQ_CREDIT_BUREAU_QRT,Float,Numerical Count
+121,AMT_REQ_CREDIT_BUREAU_YEAR,Float,Numerical Count
