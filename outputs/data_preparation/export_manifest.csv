@@ -1,0 +1,17 @@
+Artifact,Purpose,Status
+Train IDs,Freeze training split,Exported
+Validation IDs,Freeze validation split,Exported
+Test IDs,Freeze internal test split,Exported
+AI Studio Train,AI Studio benchmark training,Exported
+AI Studio Validation,AI Studio benchmark validation,Exported
+AI Studio Test,AI Studio benchmark testing,Exported
+Baseline Scaled Matrices,Scale-sensitive Python models,Exported
+Baseline Unscaled Matrices,Tree-based Python models,Exported
+Advanced Scaled Matrices,Scale-sensitive advanced models,Exported
+Advanced Unscaled Matrices,Tree-based advanced models,Exported
+Baseline Preprocessor Scaled,Reproduce scaled baseline preprocessing,Exported
+Baseline Preprocessor Unscaled,Reproduce unscaled baseline preprocessing,Exported
+Advanced Preprocessor Scaled,Reproduce scaled advanced preprocessing,Exported
+Advanced Preprocessor Unscaled,Reproduce unscaled advanced preprocessing,Exported
+Baseline Feature Names,Interpret baseline model columns,Exported
+Advanced Feature Names,Interpret advanced model columns,Exported

@@ -1,0 +1,22 @@
+Feature,Outlier Type,99%,max,Max / P99,Treatment,Dataset Modified,Reason
+DAYS_EMPLOYED,Known Sentinel,,365243.0,,Replace sentinel with NaN and create anomaly indicator,True,The value 365243 does not represent a realistic employment duration and is treated as a coded sentinel value.
+AMT_INCOME_TOTAL,Monetary,472500.0,117000000.0,247.61904761904762,Keep,False,Extreme monetary values may represent legitimate applicants; no evidence confirms that they are invalid observations.
+AMT_REQ_CREDIT_BUREAU_QRT,Count,2.0,261.0,130.5,Keep,False,High count values are statistically extreme but no domain rule or sentinel code identifies them as invalid.
+OBS_30_CNT_SOCIAL_CIRCLE,Count,10.0,348.0,34.8,Keep,False,High count values are statistically extreme but no domain rule or sentinel code identifies them as invalid.
+OBS_60_CNT_SOCIAL_CIRCLE,Count,10.0,344.0,34.4,Keep,False,High count values are statistically extreme but no domain rule or sentinel code identifies them as invalid.
+DEF_30_CNT_SOCIAL_CIRCLE,Count,2.0,34.0,17.0,Keep,False,High count values are statistically extreme but no domain rule or sentinel code identifies them as invalid.
+DEF_60_CNT_SOCIAL_CIRCLE,Count,2.0,24.0,12.0,Keep,False,High count values are statistically extreme but no domain rule or sentinel code identifies them as invalid.
+NONLIVINGAPARTMENTS_MODE,Bounded Numerical,0.0973,1.0,10.277492291880781,Keep,False,"Extreme Max/P99 ratio is caused by the distribution, but values remain within the valid 0-1 range."
+NONLIVINGAPARTMENTS_MEDI,Bounded Numerical,0.1048,1.0,9.541984732824426,Keep,False,"Extreme Max/P99 ratio is caused by the distribution, but values remain within the valid 0-1 range."
+NONLIVINGAPARTMENTS_AVG,Bounded Numerical,0.1081,1.0,9.250693802035153,Keep,False,"Extreme Max/P99 ratio is caused by the distribution, but values remain within the valid 0-1 range."
+AMT_REQ_CREDIT_BUREAU_WEEK,Count,1.0,8.0,8.0,Keep,False,High count values are statistically extreme but no domain rule or sentinel code identifies them as invalid.
+AMT_REQ_CREDIT_BUREAU_MON,Count,4.0,27.0,6.75,Keep,False,High count values are statistically extreme but no domain rule or sentinel code identifies them as invalid.
+CNT_CHILDREN,Count,3.0,19.0,6.333333333333333,Keep,False,High count values are statistically extreme but no domain rule or sentinel code identifies them as invalid.
+CNT_FAM_MEMBERS,Count,5.0,20.0,4.0,Keep,False,High count values are statistically extreme but no domain rule or sentinel code identifies them as invalid.
+AMT_ANNUITY,Monetary,70006.5,258025.5,3.685736324484155,Keep,False,Extreme monetary values may represent legitimate applicants; no evidence confirms that they are invalid observations.
+NONLIVINGAREA_AVG,Bounded Numerical,0.3165,1.0,3.1595576619273302,Keep,False,"Extreme Max/P99 ratio is caused by the distribution, but values remain within the valid 0-1 range."
+AMT_REQ_CREDIT_BUREAU_YEAR,Count,8.0,25.0,3.125,Keep,False,High count values are statistically extreme but no domain rule or sentinel code identifies them as invalid.
+NONLIVINGAREA_MEDI,Bounded Numerical,0.3212720000000001,1.0,3.112627306456833,Keep,False,"Extreme Max/P99 ratio is caused by the distribution, but values remain within the valid 0-1 range."
+NONLIVINGAREA_MODE,Bounded Numerical,0.3221,1.0,3.104625892579944,Keep,False,"Extreme Max/P99 ratio is caused by the distribution, but values remain within the valid 0-1 range."
+COMMONAREA_MODE,Bounded Numerical,0.3655550000000003,1.0,2.73556646742624,Keep,False,"Extreme Max/P99 ratio is caused by the distribution, but values remain within the valid 0-1 range."
+LANDAREA_AVG,Bounded Numerical,0.3746,1.0,2.669514148424987,Keep,False,"Extreme Max/P99 ratio is caused by the distribution, but values remain within the valid 0-1 range."
