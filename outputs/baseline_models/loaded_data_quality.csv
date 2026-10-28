@@ -1,0 +1,7 @@
+Dataset,Contains NaN,Contains Infinite
+Train Scaled,False,False
+Validation Scaled,False,False
+Test Scaled,False,False
+Train Unscaled,False,False
+Validation Unscaled,False,False
+Test Unscaled,False,False
