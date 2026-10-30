@@ -1,0 +1,18 @@
+{
+    "model_name": "Gradient Boosting",
+    "configuration": "Advanced Features - Tuned Weighted",
+    "feature_set": "Advanced Unscaled",
+    "validation_roc_auc": 0.7800638649764181,
+    "validation_pr_auc": 0.27311034489403446,
+    "improvement_vs_ai_studio": 0.05606386497641813,
+    "improvement_vs_python_baseline": 0.02226386497641808,
+    "best_hyperparameters": {
+        "subsample": 0.8,
+        "n_estimators": 250,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_depth": 3,
+        "learning_rate": 0.1
+    },
+    "random_state": 1992
+}
