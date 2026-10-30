@@ -1,0 +1,35 @@
+{
+    "model": {
+        "name": "Gradient Boosting",
+        "configuration": "Advanced Features - Tuned Weighted",
+        "feature_set": "Advanced Unscaled",
+        "model_file": "final_candidate_gradient_boosting.joblib"
+    },
+    "performance": {
+        "validation_roc_auc": 0.7800638649764181,
+        "validation_pr_auc": 0.27311034489403446,
+        "validation_precision": 0.18092654424040067,
+        "validation_recall": 0.6984425349087003,
+        "validation_f1": 0.28740331491712706
+    },
+    "benchmarks": {
+        "ai_studio_roc_auc": 0.724,
+        "python_baseline_roc_auc": 0.7578
+    },
+    "development": {
+        "primary_metric": "ROC-AUC",
+        "development_threshold": 0.5,
+        "cross_validation_folds": 5,
+        "random_state": 1992,
+        "test_used": false
+    },
+    "best_hyperparameters": {
+        "subsample": 0.8,
+        "n_estimators": 250,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_depth": 3,
+        "learning_rate": 0.1
+    },
+    "feature_count": 306
+}
