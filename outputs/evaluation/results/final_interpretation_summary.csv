@@ -1,0 +1,9 @@
+Measure,Value
+Final Model,Gradient Boosting
+Validation ROC-AUC,0.7800638649764181
+Test ROC-AUC,0.7842501935231312
+Test PR-AUC,0.27401082360515067
+Default Threshold,0.5
+Default Test Recall,0.7062298603651987
+Selected Business Threshold,0.40999999999999986
+Business Threshold Test Recall,0.8029001074113856

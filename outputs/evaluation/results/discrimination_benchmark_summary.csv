@@ -1,0 +1,5 @@
+Reference,ROC-AUC
+AI Studio Validation Benchmark,0.724
+Python Baseline Validation,0.7578
+Advanced Model Validation,0.7800638649764181
+Final Internal Test,0.7842501935231312

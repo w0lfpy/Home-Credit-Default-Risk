@@ -1,0 +1,11 @@
+Component,Value
+Model,Gradient Boosting
+Configuration,Advanced Features - Tuned Weighted
+Feature Representation,Advanced Unscaled
+Validation ROC-AUC,0.7800638649764181
+Test ROC-AUC,0.7842501935231312
+Test PR-AUC,0.27401082360515067
+Default Threshold,0.5
+Business Threshold,0.40999999999999986
+Business Threshold Test Recall,0.8029001074113856
+Model Artefact,final_candidate_gradient_boosting.joblib
