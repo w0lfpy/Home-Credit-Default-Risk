@@ -1,0 +1,21 @@
+{
+    "split": {
+        "test_size": 0.2,
+        "random_state": 1992,
+        "stratified": true,
+        "validation_partition": false
+    },
+    "sampling": {
+        "python_smote_applied_here": false,
+        "python_smote_strategy": "Applied inside modelling cross-validation pipelines",
+        "test_resampled": false
+    },
+    "baseline": {
+        "feature_count": 245
+    },
+    "advanced": {
+        "feature_count": 458
+    },
+    "train_rows": 246008,
+    "test_rows": 61503
+}

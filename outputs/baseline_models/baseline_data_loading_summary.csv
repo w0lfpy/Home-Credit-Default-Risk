@@ -1,3 +1,3 @@
 Representation,Train Rows,Validation Rows,Test Rows,Features,NaN Free,Infinite Free
-Scaled,215257,46127,46127,242,True,True
-Unscaled,215257,46127,46127,242,True,True
+Scaled,34754,46127,46127,234,True,True
+Unscaled,34754,46127,46127,234,True,True

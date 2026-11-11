@@ -1,4 +1,4 @@
 Model,Best Parameters,Best CV ROC-AUC
-HistGradientBoosting,"{'min_samples_leaf': 30, 'max_leaf_nodes': 15, 'max_iter': 200, 'max_depth': 10, 'learning_rate': 0.08, 'l2_regularization': 1.0}",0.7770195695420397
-Gradient Boosting,"{'subsample': 0.8, 'n_estimators': 250, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_depth': 3, 'learning_rate': 0.1}",0.7779499845777897
-Logistic Regression,"{'solver': 'liblinear', 'penalty': 'l1', 'C': 0.05}",0.7697696454607161
+HistGradientBoosting,"{'min_samples_leaf': 30, 'max_leaf_nodes': 15, 'max_iter': 200, 'max_depth': 10, 'learning_rate': 0.08, 'l2_regularization': 1.0}",0.7729464896647393
+Gradient Boosting,"{'subsample': 0.8, 'n_estimators': 250, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_depth': 3, 'learning_rate': 0.1}",0.7756956551279579
+Logistic Regression,"{'solver': 'liblinear', 'penalty': 'l1', 'C': 0.5}",0.7695485976187302

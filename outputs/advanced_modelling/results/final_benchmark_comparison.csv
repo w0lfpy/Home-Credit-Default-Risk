@@ -1,4 +1,4 @@
 Stage,Model,Configuration,Validation ROC-AUC
 AI Studio Benchmark,Gradient Boosted Trees,Fixed Validation Benchmark,0.724
 Python Baseline,Gradient Boosting,Baseline Features,0.7578
-Advanced Python,Gradient Boosting,Advanced Features - Tuned Weighted,0.7800638649764181
+Advanced Python,Gradient Boosting,Advanced Features - Tuned Weighted,0.7783481908148839

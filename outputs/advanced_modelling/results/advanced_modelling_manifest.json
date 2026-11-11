@@ -6,11 +6,11 @@
         "model_file": "final_candidate_gradient_boosting.joblib"
     },
     "performance": {
-        "validation_roc_auc": 0.7800638649764181,
-        "validation_pr_auc": 0.27311034489403446,
-        "validation_precision": 0.18092654424040067,
-        "validation_recall": 0.6984425349087003,
-        "validation_f1": 0.28740331491712706
+        "validation_roc_auc": 0.7783481908148839,
+        "validation_pr_auc": 0.27311986239668523,
+        "validation_precision": 0.17724903087822483,
+        "validation_recall": 0.7121374865735768,
+        "validation_f1": 0.2838488708123729
     },
     "benchmarks": {
         "ai_studio_roc_auc": 0.724,
@@ -31,5 +31,5 @@
         "max_depth": 3,
         "learning_rate": 0.1
     },
-    "feature_count": 306
+    "feature_count": 298
 }
