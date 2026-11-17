@@ -1,0 +1,3 @@
+,Dataset,Rows,Columns,Purpose,Main Key,Target
+0,application_train,307511,122,Main application dataset,SK_ID_CURR,TARGET
+1,columns_description,219,5,Data dictionary,-,-

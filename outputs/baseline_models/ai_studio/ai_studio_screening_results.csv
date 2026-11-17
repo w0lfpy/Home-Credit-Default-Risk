@@ -1,0 +1,6 @@
+Model,Accuracy,Classification Error,ROC-AUC,ROC-AUC Std,Screening Rank
+Logistic Regression,0.919,0.081,0.747,0.006,1
+Gradient Boosted Trees,0.92,0.08,0.714,0.016,2
+Random Forest,0.92,0.08,0.573,0.01,3
+Naive Bayes,0.919,0.081,0.515,0.003,4
+Decision Tree,0.919,0.081,0.5,0.0,5

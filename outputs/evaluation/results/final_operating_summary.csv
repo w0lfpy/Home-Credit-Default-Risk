@@ -1,0 +1,10 @@
+Measure,Value
+Model,Gradient Boosting
+Test ROC-AUC,0.7818355841561481
+Test PR-AUC,0.2729052454474052
+Default Threshold,0.5
+Default Precision,0.1789197551624403
+Default Recall,0.7142857142857143
+Selected Threshold,0.40999999999999986
+Selected Precision,0.1489771716572784
+Selected Recall,0.8096133190118152

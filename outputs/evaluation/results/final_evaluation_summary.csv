@@ -1,0 +1,15 @@
+Measure,Value
+Final Model,Gradient Boosting
+Configuration,Advanced Features - Tuned Weighted
+Validation ROC-AUC,0.7783481908148839
+Test ROC-AUC,0.7818355841561481
+Validation PR-AUC,0.27311986239668523
+Test PR-AUC,0.2729052454474052
+Default Threshold,0.5
+Default Test Precision,0.1789197551624403
+Default Test Recall,0.7142857142857143
+Default Test F1,0.28615996987789794
+Selected Business Threshold,0.40999999999999986
+Business Threshold Test Precision,0.1489771716572784
+Business Threshold Test Recall,0.8096133190118152
+Business Threshold Test F1,0.25164844336866704

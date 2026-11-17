@@ -1,2 +1,10 @@
 data/*
 !data/.gitkeep
+venv/
+# Trained ML models
+*.joblib
+*.pkl
+
+# Python cache
+__pycache__/
+*.pyc

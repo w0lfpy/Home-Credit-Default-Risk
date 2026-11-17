@@ -1,0 +1,8 @@
+Measure,Value
+Benchmark Model,Gradient Boosted Trees
+Validation ROC-AUC,0.724
+Internal Test ROC-AUC,0.726
+Test - Validation Difference,0.0020000000000000018
+Positive Class,TARGET = 1
+Primary Metric,ROC-AUC
+Random Seed,1992

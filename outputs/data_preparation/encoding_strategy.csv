@@ -1,0 +1,51 @@
+Feature,Analytical Type,Current Dtype,Encoding Strategy,Unknown Category Strategy,Applied Now,Reason
+CODE_GENDER,Categorical,str,One-Hot Encoding,Ignore unseen categories,False,Nominal categorical feature with no intrinsic order.
+NAME_TYPE_SUITE,Categorical,str,One-Hot Encoding,Ignore unseen categories,False,Nominal categorical feature with no intrinsic order.
+NAME_INCOME_TYPE,Categorical,str,One-Hot Encoding,Ignore unseen categories,False,Nominal categorical feature with no intrinsic order.
+NAME_FAMILY_STATUS,Categorical,str,One-Hot Encoding,Ignore unseen categories,False,Nominal categorical feature with no intrinsic order.
+NAME_HOUSING_TYPE,Categorical,str,One-Hot Encoding,Ignore unseen categories,False,Nominal categorical feature with no intrinsic order.
+OCCUPATION_TYPE,Categorical,str,One-Hot Encoding,Ignore unseen categories,False,Nominal categorical feature with no intrinsic order.
+WEEKDAY_APPR_PROCESS_START,Categorical,str,One-Hot Encoding,Ignore unseen categories,False,Nominal categorical feature with no intrinsic order.
+ORGANIZATION_TYPE,Categorical,str,One-Hot Encoding,Ignore unseen categories,False,Nominal categorical feature with no intrinsic order.
+FONDKAPREMONT_MODE,Categorical,str,One-Hot Encoding,Ignore unseen categories,False,Nominal categorical feature with no intrinsic order.
+HOUSETYPE_MODE,Categorical,str,One-Hot Encoding,Ignore unseen categories,False,Nominal categorical feature with no intrinsic order.
+WALLSMATERIAL_MODE,Categorical,str,One-Hot Encoding,Ignore unseen categories,False,Nominal categorical feature with no intrinsic order.
+NAME_CONTRACT_TYPE,Binary / Flag,str,Binary mapping,Unexpected categories treated as missing,False,Binary text feature will be converted to a 0/1 representation.
+FLAG_OWN_CAR,Binary / Flag,object,Binary mapping,Unexpected categories treated as missing,False,Binary text feature will be converted to a 0/1 representation.
+FLAG_OWN_REALTY,Binary / Flag,object,Binary mapping,Unexpected categories treated as missing,False,Binary text feature will be converted to a 0/1 representation.
+FLAG_MOBIL,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_EMP_PHONE,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_WORK_PHONE,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_CONT_MOBILE,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_PHONE,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_EMAIL,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+REG_REGION_NOT_LIVE_REGION,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+REG_REGION_NOT_WORK_REGION,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+LIVE_REGION_NOT_WORK_REGION,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+REG_CITY_NOT_LIVE_CITY,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+REG_CITY_NOT_WORK_CITY,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+LIVE_CITY_NOT_WORK_CITY,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+EMERGENCYSTATE_MODE,Binary / Flag,object,Binary mapping,Unexpected categories treated as missing,False,Binary text feature will be converted to a 0/1 representation.
+FLAG_DOCUMENT_2,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_DOCUMENT_3,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_DOCUMENT_4,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_DOCUMENT_5,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_DOCUMENT_6,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_DOCUMENT_7,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_DOCUMENT_8,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_DOCUMENT_9,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_DOCUMENT_10,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_DOCUMENT_11,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_DOCUMENT_12,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_DOCUMENT_13,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_DOCUMENT_14,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_DOCUMENT_15,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_DOCUMENT_16,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_DOCUMENT_17,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_DOCUMENT_18,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_DOCUMENT_19,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_DOCUMENT_20,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+FLAG_DOCUMENT_21,Binary / Flag,int64,Keep binary numeric encoding,Unexpected categories treated as missing,False,Feature is already represented numerically.
+NAME_EDUCATION_TYPE,Ordinal,str,Ordinal Encoding,Unknown ordinal category encoded separately,False,Feature has an intrinsic ordering that should be preserved.
+REGION_RATING_CLIENT,Ordinal,int64,Keep existing ordinal encoding,Unknown ordinal category encoded separately,False,Feature already has a numerical representation preserving its order.
+REGION_RATING_CLIENT_W_CITY,Ordinal,int64,Keep existing ordinal encoding,Unknown ordinal category encoded separately,False,Feature already has a numerical representation preserving its order.

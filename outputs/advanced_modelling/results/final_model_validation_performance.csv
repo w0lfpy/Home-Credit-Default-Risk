@@ -1,0 +1,8 @@
+Metric,Value
+Validation ROC-AUC,0.7783481908148839
+Validation PR-AUC,0.27311986239668523
+Validation Precision,0.17724903087822483
+Validation Recall,0.7121374865735768
+Validation F1,0.2838488708123729
+Improvement vs AI Studio,0.05434819081488396
+Improvement vs Python Baseline,0.020548190814883904

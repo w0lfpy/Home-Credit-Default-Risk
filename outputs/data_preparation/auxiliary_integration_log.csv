@@ -1,0 +1,6 @@
+Source Table,Aggregation Level,Purpose
+bureau + bureau_balance,SK_ID_CURR,Previous external credit history and delinquency
+previous_application,SK_ID_CURR,Previous Home Credit application history
+installments_payments,SK_ID_CURR,Historical payment behaviour
+POS_CASH_balance,SK_ID_CURR,POS loan repayment and delinquency history
+credit_card_balance,SK_ID_CURR,Credit card utilisation and delinquency history

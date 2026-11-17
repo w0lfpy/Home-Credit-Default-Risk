@@ -1,0 +1,5 @@
+Model,Model Family,Input Representation,Primary Role
+Logistic Regression,Linear,Scaled,Simple linear baseline
+Decision Tree,Single Tree,Unscaled,Simple nonlinear baseline
+Random Forest,Bagging Ensemble,Unscaled,Ensemble baseline
+HistGradientBoosting,Boosting Ensemble,Unscaled,Boosting baseline

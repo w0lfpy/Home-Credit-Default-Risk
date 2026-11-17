@@ -1,0 +1,204 @@
+Unnamed: 0,Feature,Pandas Type,Analytical Type
+0.0,SK_ID_CURR,Integer,Identifier
+1.0,TARGET,Integer,Target
+2.0,NAME_CONTRACT_TYPE,str,Binary / Flag
+3.0,CODE_GENDER,str,Categorical
+4.0,FLAG_OWN_CAR,str,Binary / Flag
+5.0,FLAG_OWN_REALTY,str,Binary / Flag
+6.0,CNT_CHILDREN,Integer,Numerical Count
+7.0,AMT_INCOME_TOTAL,Float,Numerical Continuous
+8.0,AMT_CREDIT,Float,Numerical Continuous
+9.0,AMT_ANNUITY,Float,Numerical Continuous
+10.0,AMT_GOODS_PRICE,Float,Numerical Continuous
+11.0,NAME_TYPE_SUITE,str,Categorical
+12.0,NAME_INCOME_TYPE,str,Categorical
+13.0,NAME_EDUCATION_TYPE,str,Ordinal
+14.0,NAME_FAMILY_STATUS,str,Categorical
+15.0,NAME_HOUSING_TYPE,str,Categorical
+16.0,REGION_POPULATION_RELATIVE,Float,Numerical Continuous
+21.0,OWN_CAR_AGE,Float,Temporal / Days
+22.0,FLAG_MOBIL,Integer,Binary / Flag
+23.0,FLAG_EMP_PHONE,Integer,Binary / Flag
+24.0,FLAG_WORK_PHONE,Integer,Binary / Flag
+25.0,FLAG_CONT_MOBILE,Integer,Binary / Flag
+26.0,FLAG_PHONE,Integer,Binary / Flag
+27.0,FLAG_EMAIL,Integer,Binary / Flag
+28.0,OCCUPATION_TYPE,str,Categorical
+29.0,CNT_FAM_MEMBERS,Float,Numerical Count
+30.0,REGION_RATING_CLIENT,Integer,Ordinal
+31.0,REGION_RATING_CLIENT_W_CITY,Integer,Ordinal
+32.0,WEEKDAY_APPR_PROCESS_START,str,Categorical
+33.0,HOUR_APPR_PROCESS_START,Integer,Numerical Continuous
+34.0,REG_REGION_NOT_LIVE_REGION,Integer,Binary / Flag
+35.0,REG_REGION_NOT_WORK_REGION,Integer,Binary / Flag
+36.0,LIVE_REGION_NOT_WORK_REGION,Integer,Binary / Flag
+37.0,REG_CITY_NOT_LIVE_CITY,Integer,Binary / Flag
+38.0,REG_CITY_NOT_WORK_CITY,Integer,Binary / Flag
+39.0,LIVE_CITY_NOT_WORK_CITY,Integer,Binary / Flag
+40.0,ORGANIZATION_TYPE,str,Categorical
+41.0,EXT_SOURCE_1,Float,External Score
+42.0,EXT_SOURCE_2,Float,External Score
+43.0,EXT_SOURCE_3,Float,External Score
+44.0,APARTMENTS_AVG,Float,Numerical Continuous
+45.0,BASEMENTAREA_AVG,Float,Numerical Continuous
+46.0,YEARS_BEGINEXPLUATATION_AVG,Float,Numerical Continuous
+47.0,YEARS_BUILD_AVG,Float,Numerical Continuous
+48.0,COMMONAREA_AVG,Float,Numerical Continuous
+49.0,ELEVATORS_AVG,Float,Numerical Continuous
+50.0,ENTRANCES_AVG,Float,Numerical Continuous
+51.0,FLOORSMAX_AVG,Float,Numerical Continuous
+52.0,FLOORSMIN_AVG,Float,Numerical Continuous
+53.0,LANDAREA_AVG,Float,Numerical Continuous
+54.0,LIVINGAPARTMENTS_AVG,Float,Numerical Continuous
+55.0,LIVINGAREA_AVG,Float,Numerical Continuous
+56.0,NONLIVINGAPARTMENTS_AVG,Float,Numerical Continuous
+57.0,NONLIVINGAREA_AVG,Float,Numerical Continuous
+58.0,APARTMENTS_MODE,Float,Numerical Continuous
+59.0,BASEMENTAREA_MODE,Float,Numerical Continuous
+60.0,YEARS_BEGINEXPLUATATION_MODE,Float,Numerical Continuous
+61.0,YEARS_BUILD_MODE,Float,Numerical Continuous
+62.0,COMMONAREA_MODE,Float,Numerical Continuous
+63.0,ELEVATORS_MODE,Float,Numerical Continuous
+64.0,ENTRANCES_MODE,Float,Numerical Continuous
+65.0,FLOORSMAX_MODE,Float,Numerical Continuous
+66.0,FLOORSMIN_MODE,Float,Numerical Continuous
+67.0,LANDAREA_MODE,Float,Numerical Continuous
+68.0,LIVINGAPARTMENTS_MODE,Float,Numerical Continuous
+69.0,LIVINGAREA_MODE,Float,Numerical Continuous
+70.0,NONLIVINGAPARTMENTS_MODE,Float,Numerical Continuous
+71.0,NONLIVINGAREA_MODE,Float,Numerical Continuous
+72.0,APARTMENTS_MEDI,Float,Numerical Continuous
+73.0,BASEMENTAREA_MEDI,Float,Numerical Continuous
+74.0,YEARS_BEGINEXPLUATATION_MEDI,Float,Numerical Continuous
+75.0,YEARS_BUILD_MEDI,Float,Numerical Continuous
+76.0,COMMONAREA_MEDI,Float,Numerical Continuous
+77.0,ELEVATORS_MEDI,Float,Numerical Continuous
+78.0,ENTRANCES_MEDI,Float,Numerical Continuous
+79.0,FLOORSMAX_MEDI,Float,Numerical Continuous
+80.0,FLOORSMIN_MEDI,Float,Numerical Continuous
+81.0,LANDAREA_MEDI,Float,Numerical Continuous
+82.0,LIVINGAPARTMENTS_MEDI,Float,Numerical Continuous
+83.0,LIVINGAREA_MEDI,Float,Numerical Continuous
+84.0,NONLIVINGAPARTMENTS_MEDI,Float,Numerical Continuous
+85.0,NONLIVINGAREA_MEDI,Float,Numerical Continuous
+86.0,FONDKAPREMONT_MODE,str,Categorical
+87.0,HOUSETYPE_MODE,str,Categorical
+88.0,TOTALAREA_MODE,Float,Numerical Continuous
+89.0,WALLSMATERIAL_MODE,str,Categorical
+90.0,EMERGENCYSTATE_MODE,str,Binary / Flag
+91.0,OBS_30_CNT_SOCIAL_CIRCLE,Float,Numerical Count
+92.0,DEF_30_CNT_SOCIAL_CIRCLE,Float,Numerical Count
+93.0,OBS_60_CNT_SOCIAL_CIRCLE,Float,Numerical Count
+94.0,DEF_60_CNT_SOCIAL_CIRCLE,Float,Numerical Count
+96.0,FLAG_DOCUMENT_2,Integer,Binary / Flag
+97.0,FLAG_DOCUMENT_3,Integer,Binary / Flag
+98.0,FLAG_DOCUMENT_4,Integer,Binary / Flag
+99.0,FLAG_DOCUMENT_5,Integer,Binary / Flag
+100.0,FLAG_DOCUMENT_6,Integer,Binary / Flag
+101.0,FLAG_DOCUMENT_7,Integer,Binary / Flag
+102.0,FLAG_DOCUMENT_8,Integer,Binary / Flag
+103.0,FLAG_DOCUMENT_9,Integer,Binary / Flag
+104.0,FLAG_DOCUMENT_10,Integer,Binary / Flag
+105.0,FLAG_DOCUMENT_11,Integer,Binary / Flag
+106.0,FLAG_DOCUMENT_12,Integer,Binary / Flag
+107.0,FLAG_DOCUMENT_13,Integer,Binary / Flag
+108.0,FLAG_DOCUMENT_14,Integer,Binary / Flag
+109.0,FLAG_DOCUMENT_15,Integer,Binary / Flag
+110.0,FLAG_DOCUMENT_16,Integer,Binary / Flag
+111.0,FLAG_DOCUMENT_17,Integer,Binary / Flag
+112.0,FLAG_DOCUMENT_18,Integer,Binary / Flag
+113.0,FLAG_DOCUMENT_19,Integer,Binary / Flag
+114.0,FLAG_DOCUMENT_20,Integer,Binary / Flag
+115.0,FLAG_DOCUMENT_21,Integer,Binary / Flag
+116.0,AMT_REQ_CREDIT_BUREAU_HOUR,Float,Numerical Count
+117.0,AMT_REQ_CREDIT_BUREAU_DAY,Float,Numerical Count
+118.0,AMT_REQ_CREDIT_BUREAU_WEEK,Float,Numerical Count
+119.0,AMT_REQ_CREDIT_BUREAU_MON,Float,Numerical Count
+120.0,AMT_REQ_CREDIT_BUREAU_QRT,Float,Numerical Count
+121.0,AMT_REQ_CREDIT_BUREAU_YEAR,Float,Numerical Count
+,CREDIT_INCOME_RATIO,float64,Numerical Continuous
+,ANNUITY_INCOME_RATIO,float64,Numerical Continuous
+,CREDIT_ANNUITY_RATIO,float64,Numerical Continuous
+,CREDIT_GOODS_RATIO,float64,Numerical Continuous
+,AGE_YEARS,float64,Numerical Continuous
+,EMPLOYMENT_YEARS,float64,Numerical Continuous
+,REGISTRATION_YEARS,float64,Numerical Continuous
+,ID_PUBLISH_YEARS,float64,Numerical Continuous
+,PHONE_CHANGE_YEARS,float64,Numerical Continuous
+,EMPLOYMENT_AGE_RATIO,float64,Numerical Continuous
+,INCOME_PER_PERSON,float64,Numerical Continuous
+,CHILDREN_RATIO,float64,Numerical Continuous
+,EXT_SOURCE_MEAN,float64,External Score
+,EXT_SOURCE_MIN,float64,External Score
+,EXT_SOURCE_MAX,float64,External Score
+,EXT_SOURCE_STD,float64,Numerical Continuous
+,EXT_SOURCE_COUNT,int64,Numerical Count
+,DOCUMENT_COUNT,int64,Numerical Count
+,CONTACT_COUNT,int64,Numerical Count
+,DAYS_EMPLOYED_ANOM,int64,Binary / Flag
+,BUREAU_CREDIT_COUNT,float64,Numerical Count
+,BUREAU_ACTIVE_COUNT,float64,Numerical Count
+,BUREAU_CLOSED_COUNT,float64,Numerical Count
+,BUREAU_CREDIT_SUM_TOTAL,float64,Numerical Continuous
+,BUREAU_CREDIT_SUM_MEAN,float64,Numerical Continuous
+,BUREAU_CREDIT_SUM_MAX,float64,Numerical Continuous
+,BUREAU_DEBT_TOTAL,float64,Numerical Continuous
+,BUREAU_DEBT_MEAN,float64,Numerical Continuous
+,BUREAU_OVERDUE_TOTAL,float64,Numerical Continuous
+,BUREAU_MAX_DAYS_OVERDUE,float64,Numerical Continuous
+,BUREAU_CREDIT_PROLONG_TOTAL,float64,Numerical Continuous
+,BUREAU_DAYS_CREDIT_MEAN,float64,Numerical Continuous
+,BUREAU_DAYS_CREDIT_MIN,float64,Numerical Continuous
+,BUREAU_OVERDUE_MONTHS_TOTAL,float64,Numerical Continuous
+,BUREAU_SEVERE_OVERDUE_MONTHS_TOTAL,float64,Numerical Continuous
+,BUREAU_DEBT_CREDIT_RATIO,float64,Numerical Continuous
+,BUREAU_ACTIVE_RATE,float64,Numerical Continuous
+,HAS_BUREAU_HISTORY,int64,Binary / Flag
+,PREV_APPLICATION_COUNT,float64,Numerical Count
+,PREV_APPROVED_COUNT,float64,Numerical Count
+,PREV_REFUSED_COUNT,float64,Numerical Count
+,PREV_APPLICATION_AMOUNT_MEAN,float64,Numerical Continuous
+,PREV_APPLICATION_AMOUNT_MAX,float64,Numerical Continuous
+,PREV_CREDIT_AMOUNT_MEAN,float64,Numerical Continuous
+,PREV_CREDIT_AMOUNT_MAX,float64,Numerical Continuous
+,PREV_ANNUITY_MEAN,float64,Numerical Continuous
+,PREV_DAYS_DECISION_MEAN,float64,Numerical Continuous
+,PREV_DAYS_DECISION_MIN,float64,Numerical Continuous
+,PREV_PAYMENT_COUNT_MEAN,float64,Numerical Count
+,PREV_APPROVAL_RATE,float64,Numerical Continuous
+,PREV_REFUSAL_RATE,float64,Numerical Continuous
+,HAS_PREVIOUS_APPLICATION,int64,Binary / Flag
+,INSTALMENT_RECORD_COUNT,float64,Numerical Count
+,INSTALMENT_AMOUNT_TOTAL,float64,Numerical Continuous
+,PAYMENT_AMOUNT_TOTAL,float64,Numerical Continuous
+,PAYMENT_DIFFERENCE_MEAN,float64,Numerical Continuous
+,PAYMENT_DIFFERENCE_MAX,float64,Numerical Continuous
+,PAYMENT_DELAY_MEAN,float64,Numerical Continuous
+,PAYMENT_DELAY_MAX,float64,Numerical Continuous
+,LATE_PAYMENT_COUNT,float64,Numerical Count
+,LATE_PAYMENT_RATE,float64,Numerical Continuous
+,HAS_INSTALLMENT_HISTORY,int64,Binary / Flag
+,POS_RECORD_COUNT,float64,Numerical Count
+,POS_MONTHS_BALANCE_MIN,float64,Numerical Continuous
+,POS_INSTALMENT_MEAN,float64,Numerical Continuous
+,POS_INSTALMENT_FUTURE_MEAN,float64,Numerical Continuous
+,POS_DPD_MEAN,float64,Numerical Continuous
+,POS_DPD_MAX,float64,Numerical Continuous
+,POS_DPD_DEF_MEAN,float64,Numerical Continuous
+,POS_DPD_DEF_MAX,float64,Numerical Continuous
+,POS_DPD_COUNT,float64,Numerical Count
+,POS_DPD_RATE,float64,Numerical Continuous
+,HAS_POS_HISTORY,int64,Binary / Flag
+,CC_RECORD_COUNT,float64,Numerical Count
+,CC_BALANCE_MEAN,float64,Numerical Continuous
+,CC_BALANCE_MAX,float64,Numerical Continuous
+,CC_CREDIT_LIMIT_MEAN,float64,Numerical Continuous
+,CC_DRAWINGS_TOTAL,float64,Numerical Continuous
+,CC_PAYMENT_TOTAL,float64,Numerical Continuous
+,CC_UTILIZATION_MEAN,float64,Numerical Continuous
+,CC_UTILIZATION_MAX,float64,Numerical Continuous
+,CC_DPD_MEAN,float64,Numerical Continuous
+,CC_DPD_MAX,float64,Numerical Continuous
+,CC_DPD_COUNT,float64,Numerical Count
+,CC_DPD_RATE,float64,Numerical Continuous
+,HAS_CREDIT_CARD_HISTORY,int64,Binary / Flag

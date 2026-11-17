@@ -1,0 +1,10 @@
+Component,Decision
+Benchmark,AI Studio
+Primary Metric,Validation ROC-AUC
+Supporting Metrics,"PR-AUC, Accuracy, Precision, Recall, F1"
+Training Data,Internal Train
+Model Selection Data,Internal Validation
+Final Evaluation Data,Internal Test
+Default Classification Threshold,0.5
+Python Baseline Models,"Logistic Regression, Decision Tree, Random Forest, HistGradientBoosting"
+Advanced Data Used,No

@@ -1,0 +1,9 @@
+{
+    "method": "TreeExplainer",
+    "model_output": "probability",
+    "background_source": "Validation",
+    "background_size": 200,
+    "global_explanation_source": "Internal Test Sample",
+    "global_sample_size": 1000,
+    "random_state": 1992
+}

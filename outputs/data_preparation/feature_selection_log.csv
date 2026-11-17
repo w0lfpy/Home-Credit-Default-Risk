@@ -1,0 +1,25 @@
+Feature,Selection Category,Decision,Applied Now,Reason
+SK_ID_CURR,Identifier,Exclude from predictors,False,Identifier retained for joins and traceability but excluded from model predictors.
+DAYS_BIRTH,Deterministic Redundancy,Remove,True,Exact mathematical information is retained in the more interpretable feature AGE_YEARS.
+DAYS_EMPLOYED,Deterministic Redundancy,Remove,True,Exact mathematical information is retained in the more interpretable feature EMPLOYMENT_YEARS.
+DAYS_REGISTRATION,Deterministic Redundancy,Remove,True,Exact mathematical information is retained in the more interpretable feature REGISTRATION_YEARS.
+DAYS_ID_PUBLISH,Deterministic Redundancy,Remove,True,Exact mathematical information is retained in the more interpretable feature ID_PUBLISH_YEARS.
+DAYS_LAST_PHONE_CHANGE,Deterministic Redundancy,Remove,True,Exact mathematical information is retained in the more interpretable feature PHONE_CHANGE_YEARS.
+FLAG_MOBIL,Near-Constant Candidate,Review on internal train,False,At least 99% of preliminary observations share the same value.
+FLAG_DOCUMENT_12,Near-Constant Candidate,Review on internal train,False,At least 99% of preliminary observations share the same value.
+FLAG_DOCUMENT_10,Near-Constant Candidate,Review on internal train,False,At least 99% of preliminary observations share the same value.
+FLAG_DOCUMENT_2,Near-Constant Candidate,Review on internal train,False,At least 99% of preliminary observations share the same value.
+FLAG_DOCUMENT_4,Near-Constant Candidate,Review on internal train,False,At least 99% of preliminary observations share the same value.
+FLAG_DOCUMENT_7,Near-Constant Candidate,Review on internal train,False,At least 99% of preliminary observations share the same value.
+FLAG_DOCUMENT_17,Near-Constant Candidate,Review on internal train,False,At least 99% of preliminary observations share the same value.
+FLAG_DOCUMENT_21,Near-Constant Candidate,Review on internal train,False,At least 99% of preliminary observations share the same value.
+FLAG_DOCUMENT_20,Near-Constant Candidate,Review on internal train,False,At least 99% of preliminary observations share the same value.
+FLAG_DOCUMENT_19,Near-Constant Candidate,Review on internal train,False,At least 99% of preliminary observations share the same value.
+FLAG_DOCUMENT_15,Near-Constant Candidate,Review on internal train,False,At least 99% of preliminary observations share the same value.
+FLAG_CONT_MOBILE,Near-Constant Candidate,Review on internal train,False,At least 99% of preliminary observations share the same value.
+FLAG_DOCUMENT_14,Near-Constant Candidate,Review on internal train,False,At least 99% of preliminary observations share the same value.
+FLAG_DOCUMENT_13,Near-Constant Candidate,Review on internal train,False,At least 99% of preliminary observations share the same value.
+FLAG_DOCUMENT_9,Near-Constant Candidate,Review on internal train,False,At least 99% of preliminary observations share the same value.
+FLAG_DOCUMENT_11,Near-Constant Candidate,Review on internal train,False,At least 99% of preliminary observations share the same value.
+FLAG_DOCUMENT_18,Near-Constant Candidate,Review on internal train,False,At least 99% of preliminary observations share the same value.
+FLAG_DOCUMENT_16,Near-Constant Candidate,Review on internal train,False,At least 99% of preliminary observations share the same value.

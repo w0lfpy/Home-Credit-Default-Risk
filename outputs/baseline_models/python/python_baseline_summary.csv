@@ -1,0 +1,6 @@
+Measure,Value
+Best Python Baseline Model,Gradient Boosting
+Best Python Validation ROC-AUC,0.7579058749187157
+AI Studio Benchmark Model,Gradient Boosted Trees
+AI Studio Validation ROC-AUC,0.724
+ROC-AUC Difference,0.03390587491871577

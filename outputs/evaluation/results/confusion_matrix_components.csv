@@ -1,0 +1,5 @@
+Component,Count
+True Negative,30196
+False Positive,12207
+False Negative,1064
+True Positive,2660

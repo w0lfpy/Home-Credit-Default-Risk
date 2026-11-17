@@ -1,0 +1,11 @@
+Component,Configuration
+Primary Metric,ROC-AUC
+Secondary Ranking Metric,PR-AUC
+Cross-Validation,StratifiedKFold
+CV Folds,5
+Hyperparameter Search,RandomizedSearchCV
+Optimisation Metric,roc_auc
+Development Threshold,0.5
+Python Baseline to Beat,0.7578
+Random State,1992
+Internal Test Usage,Not used

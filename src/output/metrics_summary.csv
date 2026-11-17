@@ -1,0 +1,10 @@
+model,roc_auc,f1_class1,precision_class1,recall_class1,threshold,all_metrics>=0.6
+CatBoost,0.7852,0.3366,0.2802,0.4213,0.68,NO
+XGBoost,0.7842,0.3387,0.3,0.3889,0.68,NO
+LightGBM,0.7822,0.3256,0.2993,0.3569,0.68,NO
+MLP Neural Net,0.764,0.3143,0.2655,0.3851,0.17,NO
+Gradient Boosting,0.7606,0.3113,0.2426,0.4344,0.66,NO
+Random Forest,0.7495,0.2933,0.2456,0.3639,0.61,NO
+Logistic Regression,0.7492,0.2985,0.2213,0.4584,0.64,NO
+Decision Tree,0.7272,0.2856,0.2178,0.4149,0.66,NO
+Naive Bayes,0.5165,0.1519,0.0823,0.9791,0.94,NO

@@ -1,0 +1,123 @@
+,Feature,Analytical Type,Selected,Reason
+0,SK_ID_CURR,Identifier,No predictor,Identifier
+1,TARGET,Target,Target,Prediction target
+2,NAME_CONTRACT_TYPE,Binary / Flag,Yes,Candidate predictor
+3,CODE_GENDER,Categorical,Yes,Candidate predictor
+4,FLAG_OWN_CAR,Binary / Flag,Yes,Candidate predictor
+5,FLAG_OWN_REALTY,Binary / Flag,Yes,Candidate predictor
+6,CNT_CHILDREN,Numerical Count,Yes,Candidate predictor
+7,AMT_INCOME_TOTAL,Numerical Continuous,Yes,Candidate predictor
+8,AMT_CREDIT,Numerical Continuous,Yes,Candidate predictor
+9,AMT_ANNUITY,Numerical Continuous,Yes,Candidate predictor
+10,AMT_GOODS_PRICE,Numerical Continuous,Yes,Candidate predictor
+11,NAME_TYPE_SUITE,Categorical,Yes,Candidate predictor
+12,NAME_INCOME_TYPE,Categorical,Yes,Candidate predictor
+13,NAME_EDUCATION_TYPE,Ordinal,Yes,Candidate predictor
+14,NAME_FAMILY_STATUS,Categorical,Yes,Candidate predictor
+15,NAME_HOUSING_TYPE,Categorical,Yes,Candidate predictor
+16,REGION_POPULATION_RELATIVE,Numerical Continuous,Yes,Candidate predictor
+17,DAYS_BIRTH,Temporal / Days,Yes,Candidate predictor
+18,DAYS_EMPLOYED,Temporal / Days,Yes,Candidate predictor
+19,DAYS_REGISTRATION,Temporal / Days,Yes,Candidate predictor
+20,DAYS_ID_PUBLISH,Temporal / Days,Yes,Candidate predictor
+21,OWN_CAR_AGE,Temporal / Days,Yes,Candidate predictor
+22,FLAG_MOBIL,Binary / Flag,Yes,Candidate predictor
+23,FLAG_EMP_PHONE,Binary / Flag,Yes,Candidate predictor
+24,FLAG_WORK_PHONE,Binary / Flag,Yes,Candidate predictor
+25,FLAG_CONT_MOBILE,Binary / Flag,Yes,Candidate predictor
+26,FLAG_PHONE,Binary / Flag,Yes,Candidate predictor
+27,FLAG_EMAIL,Binary / Flag,Yes,Candidate predictor
+28,OCCUPATION_TYPE,Categorical,Yes,Candidate predictor
+29,CNT_FAM_MEMBERS,Numerical Count,Yes,Candidate predictor
+30,REGION_RATING_CLIENT,Ordinal,Yes,Candidate predictor
+31,REGION_RATING_CLIENT_W_CITY,Ordinal,Yes,Candidate predictor
+32,WEEKDAY_APPR_PROCESS_START,Categorical,Yes,Candidate predictor
+33,HOUR_APPR_PROCESS_START,Numerical Continuous,Yes,Candidate predictor
+34,REG_REGION_NOT_LIVE_REGION,Binary / Flag,Yes,Candidate predictor
+35,REG_REGION_NOT_WORK_REGION,Binary / Flag,Yes,Candidate predictor
+36,LIVE_REGION_NOT_WORK_REGION,Binary / Flag,Yes,Candidate predictor
+37,REG_CITY_NOT_LIVE_CITY,Binary / Flag,Yes,Candidate predictor
+38,REG_CITY_NOT_WORK_CITY,Binary / Flag,Yes,Candidate predictor
+39,LIVE_CITY_NOT_WORK_CITY,Binary / Flag,Yes,Candidate predictor
+40,ORGANIZATION_TYPE,Categorical,Yes,Candidate predictor
+41,EXT_SOURCE_1,External Score,Yes,Candidate predictor
+42,EXT_SOURCE_2,External Score,Yes,Candidate predictor
+43,EXT_SOURCE_3,External Score,Yes,Candidate predictor
+44,APARTMENTS_AVG,Numerical Continuous,Yes,Candidate predictor
+45,BASEMENTAREA_AVG,Numerical Continuous,Yes,Candidate predictor
+46,YEARS_BEGINEXPLUATATION_AVG,Numerical Continuous,Yes,Candidate predictor
+47,YEARS_BUILD_AVG,Numerical Continuous,Yes,Candidate predictor
+48,COMMONAREA_AVG,Numerical Continuous,Yes,Candidate predictor
+49,ELEVATORS_AVG,Numerical Continuous,Yes,Candidate predictor
+50,ENTRANCES_AVG,Numerical Continuous,Yes,Candidate predictor
+51,FLOORSMAX_AVG,Numerical Continuous,Yes,Candidate predictor
+52,FLOORSMIN_AVG,Numerical Continuous,Yes,Candidate predictor
+53,LANDAREA_AVG,Numerical Continuous,Yes,Candidate predictor
+54,LIVINGAPARTMENTS_AVG,Numerical Continuous,Yes,Candidate predictor
+55,LIVINGAREA_AVG,Numerical Continuous,Yes,Candidate predictor
+56,NONLIVINGAPARTMENTS_AVG,Numerical Continuous,Yes,Candidate predictor
+57,NONLIVINGAREA_AVG,Numerical Continuous,Yes,Candidate predictor
+58,APARTMENTS_MODE,Numerical Continuous,Yes,Candidate predictor
+59,BASEMENTAREA_MODE,Numerical Continuous,Yes,Candidate predictor
+60,YEARS_BEGINEXPLUATATION_MODE,Numerical Continuous,Yes,Candidate predictor
+61,YEARS_BUILD_MODE,Numerical Continuous,Yes,Candidate predictor
+62,COMMONAREA_MODE,Numerical Continuous,Yes,Candidate predictor
+63,ELEVATORS_MODE,Numerical Continuous,Yes,Candidate predictor
+64,ENTRANCES_MODE,Numerical Continuous,Yes,Candidate predictor
+65,FLOORSMAX_MODE,Numerical Continuous,Yes,Candidate predictor
+66,FLOORSMIN_MODE,Numerical Continuous,Yes,Candidate predictor
+67,LANDAREA_MODE,Numerical Continuous,Yes,Candidate predictor
+68,LIVINGAPARTMENTS_MODE,Numerical Continuous,Yes,Candidate predictor
+69,LIVINGAREA_MODE,Numerical Continuous,Yes,Candidate predictor
+70,NONLIVINGAPARTMENTS_MODE,Numerical Continuous,Yes,Candidate predictor
+71,NONLIVINGAREA_MODE,Numerical Continuous,Yes,Candidate predictor
+72,APARTMENTS_MEDI,Numerical Continuous,Yes,Candidate predictor
+73,BASEMENTAREA_MEDI,Numerical Continuous,Yes,Candidate predictor
+74,YEARS_BEGINEXPLUATATION_MEDI,Numerical Continuous,Yes,Candidate predictor
+75,YEARS_BUILD_MEDI,Numerical Continuous,Yes,Candidate predictor
+76,COMMONAREA_MEDI,Numerical Continuous,Yes,Candidate predictor
+77,ELEVATORS_MEDI,Numerical Continuous,Yes,Candidate predictor
+78,ENTRANCES_MEDI,Numerical Continuous,Yes,Candidate predictor
+79,FLOORSMAX_MEDI,Numerical Continuous,Yes,Candidate predictor
+80,FLOORSMIN_MEDI,Numerical Continuous,Yes,Candidate predictor
+81,LANDAREA_MEDI,Numerical Continuous,Yes,Candidate predictor
+82,LIVINGAPARTMENTS_MEDI,Numerical Continuous,Yes,Candidate predictor
+83,LIVINGAREA_MEDI,Numerical Continuous,Yes,Candidate predictor
+84,NONLIVINGAPARTMENTS_MEDI,Numerical Continuous,Yes,Candidate predictor
+85,NONLIVINGAREA_MEDI,Numerical Continuous,Yes,Candidate predictor
+86,FONDKAPREMONT_MODE,Categorical,Yes,Candidate predictor
+87,HOUSETYPE_MODE,Categorical,Yes,Candidate predictor
+88,TOTALAREA_MODE,Numerical Continuous,Yes,Candidate predictor
+89,WALLSMATERIAL_MODE,Categorical,Yes,Candidate predictor
+90,EMERGENCYSTATE_MODE,Binary / Flag,Yes,Candidate predictor
+91,OBS_30_CNT_SOCIAL_CIRCLE,Numerical Count,Yes,Candidate predictor
+92,DEF_30_CNT_SOCIAL_CIRCLE,Numerical Count,Yes,Candidate predictor
+93,OBS_60_CNT_SOCIAL_CIRCLE,Numerical Count,Yes,Candidate predictor
+94,DEF_60_CNT_SOCIAL_CIRCLE,Numerical Count,Yes,Candidate predictor
+95,DAYS_LAST_PHONE_CHANGE,Temporal / Days,Yes,Candidate predictor
+96,FLAG_DOCUMENT_2,Binary / Flag,Yes,Candidate predictor
+97,FLAG_DOCUMENT_3,Binary / Flag,Yes,Candidate predictor
+98,FLAG_DOCUMENT_4,Binary / Flag,Yes,Candidate predictor
+99,FLAG_DOCUMENT_5,Binary / Flag,Yes,Candidate predictor
+100,FLAG_DOCUMENT_6,Binary / Flag,Yes,Candidate predictor
+101,FLAG_DOCUMENT_7,Binary / Flag,Yes,Candidate predictor
+102,FLAG_DOCUMENT_8,Binary / Flag,Yes,Candidate predictor
+103,FLAG_DOCUMENT_9,Binary / Flag,Yes,Candidate predictor
+104,FLAG_DOCUMENT_10,Binary / Flag,Yes,Candidate predictor
+105,FLAG_DOCUMENT_11,Binary / Flag,Yes,Candidate predictor
+106,FLAG_DOCUMENT_12,Binary / Flag,Yes,Candidate predictor
+107,FLAG_DOCUMENT_13,Binary / Flag,Yes,Candidate predictor
+108,FLAG_DOCUMENT_14,Binary / Flag,Yes,Candidate predictor
+109,FLAG_DOCUMENT_15,Binary / Flag,Yes,Candidate predictor
+110,FLAG_DOCUMENT_16,Binary / Flag,Yes,Candidate predictor
+111,FLAG_DOCUMENT_17,Binary / Flag,Yes,Candidate predictor
+112,FLAG_DOCUMENT_18,Binary / Flag,Yes,Candidate predictor
+113,FLAG_DOCUMENT_19,Binary / Flag,Yes,Candidate predictor
+114,FLAG_DOCUMENT_20,Binary / Flag,Yes,Candidate predictor
+115,FLAG_DOCUMENT_21,Binary / Flag,Yes,Candidate predictor
+116,AMT_REQ_CREDIT_BUREAU_HOUR,Numerical Count,Yes,Candidate predictor
+117,AMT_REQ_CREDIT_BUREAU_DAY,Numerical Count,Yes,Candidate predictor
+118,AMT_REQ_CREDIT_BUREAU_WEEK,Numerical Count,Yes,Candidate predictor
+119,AMT_REQ_CREDIT_BUREAU_MON,Numerical Count,Yes,Candidate predictor
+120,AMT_REQ_CREDIT_BUREAU_QRT,Numerical Count,Yes,Candidate predictor
+121,AMT_REQ_CREDIT_BUREAU_YEAR,Numerical Count,Yes,Candidate predictor

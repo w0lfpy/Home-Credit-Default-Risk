@@ -1,0 +1,7 @@
+Metric,Value
+Sensitivity / Recall,0.7142857142857143
+Specificity,0.7121194255123459
+Positive Predictive Value,0.1789197551624403
+Negative Predictive Value,0.9659628918746002
+False Positive Rate,0.2878805744876542
+False Negative Rate,0.2857142857142857

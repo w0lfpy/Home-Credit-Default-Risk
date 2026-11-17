@@ -1,0 +1,4 @@
+Model,ROC-AUC,Validation Rank
+Gradient Boosted Trees,0.724,1
+Logistic Regression,0.713,2
+Random Forest,0.57,3

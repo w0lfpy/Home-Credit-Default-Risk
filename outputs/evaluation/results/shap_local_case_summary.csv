@@ -1,0 +1,4 @@
+Case,Test Row Index,Predicted Probability,Actual TARGET
+Highest Predicted Risk,45695,0.9685305257910455,1
+Closest to Business Threshold,35597,0.41000191598509694,0
+Lowest Predicted Risk,10079,0.023556089767628404,0

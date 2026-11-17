@@ -1,0 +1,6 @@
+Stage,Model,Configuration,Validation ROC-AUC,Change vs Previous Stage,Improvement vs AI Studio,Improvement vs Python Baseline
+AI Studio Benchmark,Gradient Boosted Trees,AI Studio Fixed Validation,0.724,,0.0,-0.03380000000000005
+Python Baseline,Gradient Boosting,Baseline Features,0.7578,0.03380000000000005,0.03380000000000005,0.0
+Advanced Default,HistGradientBoosting,Advanced Features - Default,0.7753949919894253,0.017594991989425268,0.05139499198942532,0.017594991989425268
+Imbalance-Aware,HistGradientBoosting,Advanced Features - Weighted,0.7753949919894253,0.0,0.05139499198942532,0.017594991989425268
+Hyperparameter Tuned,Gradient Boosting,Advanced Features - Tuned Weighted,0.7783481908148839,0.002953198825458636,0.05434819081488396,0.020548190814883904
